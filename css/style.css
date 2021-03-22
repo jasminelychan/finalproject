@@ -4,6 +4,10 @@
     padding: 0;
     }
     
+@font-face{
+    font-family:"curiouser";
+    src: url(curiouser-webfont.woff);
+}
     html{
         scroll-behavior: smooth;
     }
@@ -14,7 +18,7 @@
         background-size: auto auto, cover;
         /* background-repeat: no-repeat; */
         /* background-size:cover; */
-        font-family: monarcha, serif;
+        font-family: curiouser, serif;
         font-size: 1.2rem;
         /* height:auto; */
         object-fit: contain;
